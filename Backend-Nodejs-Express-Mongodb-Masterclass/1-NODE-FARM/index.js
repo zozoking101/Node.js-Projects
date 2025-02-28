@@ -107,7 +107,7 @@ const server = http.createServer((req, res) => {
 
     // Not found page
     } else {
-        res.writeHead(404, {
+        res.writeHead(404, { 
             'Content-type': 'text/html',
             'my-own-header': 'hello-world',
         });
